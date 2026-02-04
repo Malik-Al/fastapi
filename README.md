@@ -4,10 +4,9 @@
 python -m venv .venv
 
 ### 2 step
-source .venv/bin/activate  # Linux/Mac
-
+#### select 
+    source .venv/bin/activate  # Linux/Mac
+    .venv\Scripts\activate     # Windows
+    
 ### 3 step
-.venv\Scripts\activate     # Windows
-
-### 4 step
 pip install -r requirements.txt
